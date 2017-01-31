@@ -76,7 +76,7 @@ begin
   if Win then
     MessageBox(0,PWideChar('Rozminowa³eœ grê w czasie '+inttostr(fmMain.czas)+' s !!!'), PWideChar('Sukces!'), MB_ICONINFORMATION)
   else
-    MessageBox(0,PWideChar('Trafi³eœ na minê w czasie '+inttostr(fmMain.czas)+' s !!!'), PWideChar('B³¹d!'), MB_ICONERROR);
+    MessageBox(0,PWideChar('Trafi³eœ na minê w czasie '+inttostr(fmMain.czas)+' s !!!'), PWideChar('B³¹d!!!'), MB_ICONERROR);
 end;
 
 procedure getFlagsState(const Flags: integer);
