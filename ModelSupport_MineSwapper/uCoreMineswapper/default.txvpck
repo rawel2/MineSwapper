@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="gj8l89olfyhz6t0ai_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:MineSwapper:uCoreMineswapper.TFlagsStateProc">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="140,380,110,36" />
+      <property name="location_set_by_user" value="True" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:MineSwapper:uCoreMineswapper.TCellType">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="139,1,73,263" />
+      <reference referencedUin="delphi:e_field:src:MineSwapper:uCoreMineswapper.TCellType.cFirstClick" />
+      <reference referencedUin="delphi:e_field:src:MineSwapper:uCoreMineswapper.TCellType.cOpen" />
+      <reference referencedUin="delphi:e_field:src:MineSwapper:uCoreMineswapper.TCellType.cClose" />
+      <reference referencedUin="delphi:e_field:src:MineSwapper:uCoreMineswapper.TCellType.cFlag" />
+      <reference referencedUin="delphi:e_field:src:MineSwapper:uCoreMineswapper.TCellType.cMine" />
+      <reference referencedUin="delphi:e_field:src:MineSwapper:uCoreMineswapper.TCellType.c0" />
+      <reference referencedUin="delphi:e_field:src:MineSwapper:uCoreMineswapper.TCellType.c1" />
+      <reference referencedUin="delphi:e_field:src:MineSwapper:uCoreMineswapper.TCellType.c2" />
+      <reference referencedUin="delphi:e_field:src:MineSwapper:uCoreMineswapper.TCellType.c3" />
+      <reference referencedUin="delphi:e_field:src:MineSwapper:uCoreMineswapper.TCellType.c4" />
+      <reference referencedUin="delphi:e_field:src:MineSwapper:uCoreMineswapper.TCellType.c5" />
+      <reference referencedUin="delphi:e_field:src:MineSwapper:uCoreMineswapper.TCellType.c6" />
+      <reference referencedUin="delphi:e_field:src:MineSwapper:uCoreMineswapper.TCellType.c7" />
+      <reference referencedUin="delphi:e_field:src:MineSwapper:uCoreMineswapper.TCellType.c8" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:MineSwapper:uCoreMineswapper.TGameStateProc">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="160,500,113,36" />
+      <property name="location_set_by_user" value="True" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="400,100,192,853" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.mPCanvas" />
+      <reference referencedUin="delphi:e_field:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.mSpriteList" />
+      <reference referencedUin="delphi:e_field:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.mInitField" />
+      <reference referencedUin="delphi:e_field:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.mEndGame" />
+      <reference referencedUin="delphi:e_field:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.mFieldHeight" />
+      <reference referencedUin="delphi:e_field:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.mFieldWidth" />
+      <reference referencedUin="delphi:e_field:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.mMineCount" />
+      <reference referencedUin="delphi:e_field:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.mFieldUp" />
+      <reference referencedUin="delphi:e_field:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.mFieldDown" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.IsOpen(System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.IsEmpty(System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.IsFirstClick(System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.IsFlag(System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.IsMine(System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.IsNumber(System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.IsRange(System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.OpenEmpty(System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.GenerateMines(System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.aroundMineCount(System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.CountFlagMine()" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.FinishGame()" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.CountOpenCells()" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.Boom()" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.getSpriteWidth()" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.setSpriteWidth(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.getSpriteHeight()" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.setSpriteHeight(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.getFieldHeightPixel()" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.getFieldWidthPixel()" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.SetMineCount(System.Word)" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.Create(System.Classes.TComponent)" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.Destroy()" />
+      <reference referencedUin="delphi:e_field:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.SetGameState" />
+      <reference referencedUin="delphi:e_field:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.SetFlagsState" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.Repaint()" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.LoadSprite(System.Integer,System.Integer,Vcl.ImgList.TCustomImageList)" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.OpenCell(System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.SetFlag(System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.ResizeField(System.Word,System.Word)" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.InitField()" />
+      <reference referencedUin="delphi:e_method:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.NewGame(System.Integer,System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_property:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.Canvas" />
+      <reference referencedUin="delphi:e_property:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.Height" />
+      <reference referencedUin="delphi:e_property:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.GameState" />
+      <reference referencedUin="delphi:e_property:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.FlagsState" />
+      <reference referencedUin="delphi:e_property:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.Width" />
+      <reference referencedUin="delphi:e_property:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.MineCount" />
+      <reference referencedUin="delphi:e_property:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.SpriteWidth" />
+      <reference referencedUin="delphi:e_property:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.SpriteHeight" />
+      <reference referencedUin="delphi:e_property:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.FieldHeightPixel" />
+      <reference referencedUin="delphi:e_property:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.FieldWidthPixel" />
+      <reference referencedUin="delphi:e_property:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.EndGame" />
+      <reference referencedUin="delphi:l_ast:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.mPCanvas">
+        <property name="sourceAnchor" value="524,100" />
+        <property name="targetAnchor" value="524,37" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.mFieldUp">
+        <property name="sourceAnchor" value="400,182" />
+        <property name="targetAnchor" value="212,182" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.mFieldDown">
+        <property name="sourceAnchor" value="400,174" />
+        <property name="targetAnchor" value="212,174" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.SetGameState">
+        <property name="sourceAnchor" value="400,518" />
+        <property name="targetAnchor" value="273,518" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.SetFlagsState">
+        <property name="sourceAnchor" value="400,398" />
+        <property name="targetAnchor" value="250,398" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.Canvas">
+        <property name="sourceAnchor" value="516,100" />
+        <property name="targetAnchor" value="516,37" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.GameState">
+        <property name="sourceAnchor" value="400,510" />
+        <property name="targetAnchor" value="273,510" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper.FlagsState">
+        <property name="sourceAnchor" value="400,390" />
+        <property name="targetAnchor" value="250,390" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:MineSwapper:uCoreMineswapper.PCanvas">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="461,1,127,36" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:MineSwapper:uCoreMineswapper.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="x7bxs842k9j_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="uml:package:MineSwapper:src:MineSwapper">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,131,134" />
+      <reference referencedUin="delphi:e_class:src:MineSwapper:MineSwapper.@unitclass" />
+    </reference>
+    <reference referencedUin="uml:package:MineSwapper:src:uMain">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="160,1,100,151" />
+      <reference referencedUin="delphi:e_class:src:MineSwapper:uMain.TfmMain" />
+      <reference referencedUin="delphi:e_class:src:MineSwapper:uMain.@unitclass" />
+    </reference>
+    <reference referencedUin="uml:package:MineSwapper:src:uCoreMineswapper">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="279,1,162,230" />
+      <reference referencedUin="delphi:e_class:src:MineSwapper:uCoreMineswapper.TFlagsStateProc" />
+      <reference referencedUin="delphi:e_class:src:MineSwapper:uCoreMineswapper.TCellType" />
+      <reference referencedUin="delphi:e_class:src:MineSwapper:uCoreMineswapper.TGameStateProc" />
+      <reference referencedUin="delphi:e_class:src:MineSwapper:uCoreMineswapper.TCoreMineSwapper" />
+      <reference referencedUin="delphi:e_class:src:MineSwapper:uCoreMineswapper.PCanvas" />
+      <reference referencedUin="delphi:e_class:src:MineSwapper:uCoreMineswapper.@unitclass" />
+    </reference>
+    <reference referencedUin="uml:package:MineSwapper:src:uCustomForm">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="141,163,133,151" />
+      <reference referencedUin="delphi:e_class:src:MineSwapper:uCustomForm.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:MineSwapper:uCustomForm.TfmCustomForm" />
+    </reference>
+  </view>
+</nodeSet>
