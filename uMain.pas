@@ -5,7 +5,8 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ImgList, Vcl.ExtCtrls, WinApi.CommCtrl, System.Types, ucoremineswapper,
-  Vcl.Menus, Vcl.ComCtrls, Vcl.ToolWin, Vcl.StdCtrls, Vcl.Buttons;
+  Vcl.Menus, Vcl.ComCtrls, Vcl.ToolWin, Vcl.StdCtrls, Vcl.Buttons,
+  System.ImageList;
 
 type
   TfmMain = class(TForm)
@@ -130,7 +131,7 @@ end;
 
 procedure TfmMain.iNewGameClick(Sender: TObject);
 begin
-  iNewGameDlg('Czy rozpocz¹æ now¹ grê?',mFieldHeight,mFieldWidth,mFieldMines);
+  iNewGameDlg('Czy rozpocz¹æ now¹ grê ?',mFieldHeight,mFieldWidth,mFieldMines);
 end;
 
 procedure TfmMain.iBeginnerClick(Sender: TObject);
