@@ -46,6 +46,7 @@
 			<Base>true</Base>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_OutputDRCFile>true</DCC_OutputDRCFile>
 			<Icon_MainIcon>$(BDS)\bin\delphi_PROJECTICON.ico</Icon_MainIcon>
 			<DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;$(DCC_Namespace)</DCC_Namespace>
 			<DCC_DcuOutput>.\$(Platform)\$(Config)</DCC_DcuOutput>
@@ -181,6 +182,17 @@
 						<Excluded_Packages Name="$(BDSBIN)\dclofficexp160.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
 						<Excluded_Packages Name="C:\Program Files (x86)\Raize\CS5\Bin\CodeSiteExpressPkg_Design160.bpl">File C:\Program Files (x86)\Raize\CS5\Bin\CodeSiteExpressPkg_Design160.bpl not found</Excluded_Packages>
 					</Excluded_Packages>
+					<Resource_DLL_Projects>
+						<Resource_DLL_Projects Name="Item0">Polski (Polska)*$00000415*PLK*PLK</Resource_DLL_Projects>
+					</Resource_DLL_Projects>
+					<RDP_Source_Files>
+						<RDP_Source_Files Name="Item0">uMain.dfm</RDP_Source_Files>
+						<RDP_Source_Files Name="Item1">uCustomForm.dfm</RDP_Source_Files>
+						<RDP_Source_Files Name="Item2">Win32\Debug\MineSwapper.drc</RDP_Source_Files>
+					</RDP_Source_Files>
+					<Language>
+						<Language Name="ProjectLang">$00000415</Language>
+					</Language>
 				</Delphi.Personality>
 				<Deployment/>
 				<Platforms>
